@@ -25,9 +25,4 @@ Utilizing these traits from our dataset, we are going to train a classification 
 
 ### Team Communication
 
-***tentative -> possible meeting Wednesday?? No problems if not!
-***tentative -> should Friday meetings become a thing?? Also, no pressure!
-
-
-A dedicated Slack group for members has been formed where we have discussed ideas and meetings via Zoom. 
-
+We have decided to have a meeting via Zoom each Friday evening to discuss our progress over the course of the week. We also have a dedicated Slack group for discussions.

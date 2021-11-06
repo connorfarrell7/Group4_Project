@@ -7,9 +7,18 @@ Collaborators
 - Mohamed Metwalli
 - Connor Farrell
 
-## Segment 1 Goal Summary
+## Segment 1 
 
-Our plan is to build a Machine Learning model to predict whether a person will be selected for an internship based on several factors.
+### Goal Summary
+
+Our plan is to build a Machine Learning model to predict whether a person will be selected for an internship based on several factors. 
+
+### Reason For Selecting This Topic 
+
+
+### Data Source
+
+The data was sourced from Kaggle from an Engineering Placement dataset ([collegePlace.csv](https://github.com/connorfarrell7/Group4_Project/blob/main/collegePlace.csv)) which features the following relevent factors below.
 
 Relevant factors include:
 
@@ -21,7 +30,15 @@ Relevant factors include:
 - Dwelling Provided??
 - History of Backlogs??
 
-Utilizing these traits from our dataset, we are going to train a classification model - a subcategory of Supervised Machine Learning – to determine the likelihood of acceptance for future applicants.
+### Questions We Hope To Answer
+
+
+### Machine Learning Model
+
+Utilizing these traits from our dataset, we are going to train a classification model - a subcategory of Supervised Machine Learning â€“ to determine the likelihood of acceptance for future applicants.
+
+### Database Integration
+
 
 ### Team Communication
 

@@ -88,6 +88,7 @@ Utilizing the above features from the dataset, we are going to train a classific
 
 ### Database Integration
 
+We will use PostgresSQL to host the data from the ([collegePlace.csv](https://github.com/connorfarrell7/Group4_Project/blob/main/collegePlace.csv)). Here, I have attached an ERD of the collegePlace.csv file([Student_Information_ERD.png] (https://github.com/connorfarrell7/Group4_Project/blob/main/Student_Information_ERD.png)). To import the data, we will use the code from the collegePlace.sql file([collegePlace.sql] (https://github.com/connorfarrell7/Group4_Project/blob/main/collegePlace.sql)) to create a table and import the csv file for further analysis.
 
 ### Team Communication
 

@@ -35,7 +35,56 @@ Relevant factors include:
 
 ### Machine Learning Model
 
-Utilizing these traits from our dataset, we are going to train a classification model - a subcategory of Supervised Machine Learning – to determine the likelihood of acceptance for future applicants.
+**Machine Learning Model Type:** Classification model
+
+Utilizing the above features from the dataset, we are going to train a classification model - a subcategory of Supervised Machine Learning – to determine the likelihood of acceptance for future applicants. The following are the steps we will take for data preprocessing.
+
+**Step 1:** Loading Dataset
+
+-	Import libraries for preprocessing such as Pandas, Numpy, Plotly and sklearn
+
+-	Import and read dataset
+
+**Step 2:** Cleaning Data
+
+-	Load data into Pandas
+
+-	Check for NaN values
+
+-	Drop unused columns/features
+
+-	Identify data types and ensure all data types are integer data types
+
+-	Modify column titles
+
+**Step 3:** Prepare Feature Engineering
+
+-	Standardize the data with StandardScaler from sklearn
+
+-	Identifying that in the column “Hostel”, the “1” will mean “Yes” and “0” will mean “No”
+
+-	Identifying that in the column “PlacedOrNot”, the “1” will mean “Yes” and “0” will mean “No”
+
+**Step 4:** Exploring Data
+
+-	Finding mean age of students and which ages are more likely to be placed for an internship
+
+-	Finding total number of males and females and which are more likely to be placed for an internship
+
+-	Finding which stream will more likely be placed for and internship
+
+-	Finding the mean GPA that is more considered to be placed for an internship
+
+-	Finding whether incomplete schoolwork will affect the student’s chance of being placed for an internship
+
+**Step 5:** Mockup of Machine Learning Model
+
+-	Train model using the training data with BalancedRandomForestClassifier
+
+-	Calculated the balanced accuracy score
+
+-	Display the confusion matrix
+
 
 ### Database Integration
 

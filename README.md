@@ -1,6 +1,8 @@
-# Group 4 Capstone Project
+# Predicting Placements for Engineering Students
 
-Collaborators 
+## Group 4 Capstone Project
+
+Collaborators:
 - Nicole Young
 - Akif Eltahir
 - Regina Enrile

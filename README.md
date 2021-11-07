@@ -29,8 +29,8 @@ Relevant factors include:
 - Field of Study
 - Past Internships
 - Cumulative Grade Point Average (CGPA)
-- Dwelling Provided??
-- History of Backlogs??
+- Dwelling Provided
+- History of Backlogs
 
 
 ### Machine Learning Model

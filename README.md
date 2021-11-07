@@ -20,7 +20,7 @@ Students are in the beginning of their career and it is a challenging time for t
 
 ### Data Source
 
-The data was sourced from Kaggle from an Engineering Placement dataset ([collegePlace.csv](https://github.com/connorfarrell7/Group4_Project/blob/main/collegePlace.csv)) which features the following relevent factors below.
+The data was sourced from Kaggle from an Engineering Placement dataset ([collegePlace.csv](https://github.com/connorfarrell7/Predicting_Placements_for_Engineering_Students/blob/main/collegePlace.csv)) which features the following relevent factors below.
 
 Relevant factors include:
 
@@ -88,7 +88,7 @@ Utilizing the above features from the dataset, we are going to train a classific
 
 ### Database Integration
 
-We will use PostgresSQL to host the data from the ([collegePlace.csv](https://github.com/connorfarrell7/Group4_Project/blob/main/collegePlace.csv)). Here, I have attached an ERD of the collegePlace.csv file([Student_Information_ERD.png] (https://github.com/connorfarrell7/Group4_Project/blob/main/Student_Information_ERD.png)). To import the data, we will use the code from the collegePlace.sql file([collegePlace.sql] (https://github.com/connorfarrell7/Group4_Project/blob/main/collegePlace.sql)) to create a table and import the csv file for further analysis.
+We will use PostgresSQL to host the data from the ([collegePlace.csv](https://github.com/connorfarrell7/Predicting_Placements_for_Engineering_Students/blob/main/collegePlace.csv)). Here, I have attached an ERD of the collegePlace.csv file ([Student_Information_ERD.png](https://github.com/connorfarrell7/Predicting_Placements_for_Engineering_Students/blob/main/Student_Information_ERD.png)). To import the data, we will use the code from the collegePlace.sql file ([collegePlace.sql](https://github.com/connorfarrell7/Predicting_Placements_for_Engineering_Students/blob/main/collegePlace.sql)) to create a table and import the csv file for further analysis.
 
 The database was setup on AWS RDS service. The server name is capstone-project, and the connection details are shared with the rest of the team members. The table was populated with the data and it is ready to be iloaded into the machine learning model to predict the student placement outcome.  
 

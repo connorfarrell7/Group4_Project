@@ -30,8 +30,6 @@ Relevant factors include:
 - Dwelling Provided??
 - History of Backlogs??
 
-### Questions We Hope To Answer
-
 
 ### Machine Learning Model
 

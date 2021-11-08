@@ -16,7 +16,7 @@ Collaborators:
 Our plan is to build a Machine Learning model to predict whether a person will be selected for an internship based on several factors. 
 
 ### Reason For Selecting This Topic 
-Students are in the beginning of their career and it is a challenging time for them to gain the experience needed to put them in the work force. Understanding the data avaialable from career services in colleges and university will help these organizations in supporting the students to land in their dream job. Our success in developing such a model will enhance student experience and provide each one with the right guidance to start a career of his choice.
+Students are in the beginning of their career and it is a challenging time for them to gain the experience needed to put them in the work force. Understanding the data avaialable from career services in colleges and university will help these organizations in supporting the students to land in their dream job. Our success in developing such a model will enhance student experience and provide each one with the right guidance to start a career of their choice.
 
 ### Data Source
 
@@ -90,7 +90,7 @@ Utilizing the above features from the dataset, we are going to train a classific
 
 We will use PostgresSQL to host the data from the ([collegePlace.csv](https://github.com/connorfarrell7/Predicting_Placements_for_Engineering_Students/blob/main/collegePlace.csv)). Here, I have attached an ERD of the collegePlace.csv file ([Student_Information_ERD.png](https://github.com/connorfarrell7/Predicting_Placements_for_Engineering_Students/blob/main/Student_Information_ERD.png)). To import the data, we will use the code from the collegePlace.sql file ([collegePlace.sql](https://github.com/connorfarrell7/Predicting_Placements_for_Engineering_Students/blob/main/collegePlace.sql)) to create a table and import the csv file for further analysis.
 
-The database was setup on AWS RDS service. The server name is capstone-project, and the connection details are shared with the rest of the team members. The table was populated with the data and it is ready to be iloaded into the machine learning model to predict the student placement outcome.  
+The database was setup on AWS RDS service. The server name is capstone-project, and the connection details are shared with the rest of the team members. The table was populated with the data and it is ready to be loaded into the machine learning model to predict the student placement outcome.  
 
 ### Team Communication
 

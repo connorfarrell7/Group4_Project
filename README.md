@@ -16,7 +16,7 @@ Collaborators:
 Our plan is to build a Machine Learning model to predict whether a person will be selected for an internship based on several factors. 
 
 ### Reason For Selecting This Topic 
-Students are in the beginning of their career and it is a challenging time for them to gain the experience needed to put them in the work force. Understanding the data avaialable from career services in colleges and university will help these organizations in supporting the students to land in their dream job. Our success in developing such a model will enhance student experience and provide each one with the right guidance to start a career of their choice.
+Students are in the beginning of their career and it is a challenging time for them to gain the experience needed to put them in the work force. Understanding the data avaialable from career services in colleges and universities will help these organizations in supporting the students to land in their dream job. Our success in developing such a model will enhance student experience and provide each one with the right guidance to start a career of their choice.
 
 ### Data Source
 

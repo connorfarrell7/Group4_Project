@@ -1,15 +1,15 @@
 -- Creating college_placements table
-Create table college_placements (
-    ID int not null,
-    Age int not null,
-    Gender varchar(10) not null,
-    Stream varchar (40) not null,
-    Internships int not null,
-    CGPA int not null,
-    Hostel int not null,
-    HistoryOfBacklogs int not null,
-    PlacedOrNot int not null,
+create table student_data (
+	age int not null,
+	gender varchar(10) not null,
+	stream varchar(40) not null,
+	internships int not null,
+	cgpa int not null,
+	hostel int not null,
+	history_of_backlogs int not null,
+	placed_or_not int not null,
+	id serial not null primary key
 );
 
 -- Checking import
-Select * From college_placements;
+Select * From student_data;

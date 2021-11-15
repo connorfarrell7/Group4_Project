@@ -77,7 +77,7 @@ Utilizing the above features from the dataset, we are going to train a classific
 
 -	Finding whether incomplete schoolwork will affect the student’s chance of being placed for an internship
 
-**Step 5:** Mockup of Machine Learning Model
+**Step 5:** Machine Learning Model
 
 -	Train model using the training data with BalancedRandomForestClassifier
 

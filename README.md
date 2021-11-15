@@ -57,7 +57,7 @@ Utilizing the above features from the dataset, we are going to train a classific
 
 **Step 3:** Prepare Feature Engineering
 
-- 	Identify data that will be used for training and testing the machine learning model
+- Identify data that will be used for training and testing the machine learning model
 
 -	Split our preprocessed data into our features and target arrays
 
@@ -77,7 +77,7 @@ Utilizing the above features from the dataset, we are going to train a classific
 
 -	Finding whether incomplete schoolwork will affect the student’s chance of being placed for an internship
 
-**Step 5:** Mock up of Machine Learning Model
+**Step 5:** Machine Learning Model
 
 -	Create the SVM model, and train and evaluate the model
 
@@ -87,7 +87,7 @@ Utilizing the above features from the dataset, we are going to train a classific
 
 -	Define the model
 
-- 	Create a callback that saves the model's weights every epoch
+- Create a callback that saves the model's weights every epoch
 
 -	Display the balanced accuracy score of 87.54%
 

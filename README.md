@@ -9,8 +9,6 @@ Collaborators:
 - Mohamed Metwalli
 - Connor Farrell
 
-## Segment 1 
-
 ### Goal Summary
 
 Our plan is to build a Machine Learning model to predict whether a person will be selected for an internship based on several factors. 

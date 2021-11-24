@@ -22,7 +22,7 @@ When sstudents are in the beginning of their career it is a challenging time for
 
 The data was sourced from Kaggle from an Engineering Placement dataset ([collegePlace.csv](https://github.com/connorfarrell7/Predicting_Placements_for_Engineering_Students/blob/main/collegePlace.csv)) which features the following relevant factors below.
 
-Relevant factors include:
+#### Relevant factors include:
 
 - Age
 - Gender
@@ -97,3 +97,23 @@ Utilizing the above features from the dataset, we are going to train a classific
 We will use PostgresSQL to host data from tables containing [students' demographic information]( https://github.com/connorfarrell7/Predicting_Placements_for_Engineering_Students/blob/main/Deliverable%202%20-%20Database%20Files/student_information.csv) (ID, Age, Gender, Stream) and the parameters used to predict the probability of obtaining an [engineering placement](https://github.com/connorfarrell7/Predicting_Placements_for_Engineering_Students/blob/main/Deliverable%202%20-%20Database%20Files/student_predictors.csv) (ID, CGPA, Past Internships, Hostel Stay, History of Backlogs). Using the [ERD](https://github.com/connorfarrell7/Predicting_Placements_for_Engineering_Students/blob/main/Deliverable%202%20-%20Database%20Files/College_Placement_ERD.png) and [SQL Code](https://github.com/connorfarrell7/Predicting_Placements_for_Engineering_Students/blob/main/collegePlace.sql), we will join these tables and export the data as a [csv file](https://github.com/connorfarrell7/Predicting_Placements_for_Engineering_Students/blob/main/collegePlace.csv). 
 
 The database was setup on AWS RDS service. The server’s name is capstone-project, and the connection details are shared with the rest of the team members. The table was populated with the data, and it is ready to be loaded into the machine learning model to predict the student placement outcome.  
+
+### Description of Interactive Elements
+
+#### 1st Interactive Element:
+
+Our first interactive element is a scatter plot that shows the amount of internship placements based on the applicant’s Cumulative Grade Point Average.
+
+![1IE](https://github.com/connorfarrell7/Predicting_Placements_for_Engineering_Students/blob/main/Dashboard/1IE.PNG)
+
+#### 2nd Interactive Element:
+
+Our second graph shows the amount of applicants that were either placed or not solely by their gender
+
+![2IE](https://github.com/connorfarrell7/Predicting_Placements_for_Engineering_Students/blob/main/Dashboard/2IE.PNG)
+
+#### 3rd Interactive Element:
+
+The third visualization shows the number of placements by an applicant’s field of study, and then split by gender
+
+![3IE](https://github.com/connorfarrell7/Predicting_Placements_for_Engineering_Students/blob/main/Dashboard/3IE.PNG)

@@ -37,7 +37,7 @@ The data was sourced from Kaggle from an [Engineering Placement dataset](https:/
 
 **Machine Learning Model Type:** Classification model
 
-Utilizing the above features from the dataset, we are going to train a classification model - a subcategory of Supervised Machine Learning – to determine the likelihood of acceptance for future applicants. The following are the steps taken when building the ([machine learning model]( https://github.com/connorfarrell7/Predicting_Placements_for_Engineering_Students/blob/main/Database%20and%20Machine%20Learning/predicting_placements_for_engineering_students.ipynb)).
+Utilizing the above features from the dataset, we are going to train a classification model - a subcategory of Supervised Machine Learning – to determine the likelihood of acceptance for future applicants. The following are the steps taken when building the [machine learning model]( https://github.com/connorfarrell7/Predicting_Placements_for_Engineering_Students/blob/main/Database%20and%20Machine%20Learning/predicting_placements_for_engineering_students.ipynb).
 
 **Step 1:** Loading Dataset
 

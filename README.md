@@ -16,11 +16,11 @@ Collaborators:
 Our plan is to build a Machine Learning model to predict whether a person will be selected for an internship based on several factors. 
 
 ### Reason For Selecting This Topic 
-When sstudents are in the beginning of their career it is a challenging time for them to gain the experience needed to put them in the work force. Understanding the data available from career services in colleges and universities will help these organizations in supporting the students to land in their dream job. Our success in developing such a model will enhance student experience and provide each one with the right guidance to start a career of their choice.
+When students are in the beginning of their career it is a challenging time for them to gain the experience needed to put them in the work force. Understanding the data available from career services in colleges and universities will help these organizations in supporting the students to land in their dream job. Our success in developing such a model will enhance student experience and provide each one with the right guidance to start a career of their choice.
 
 ### Data Source
 
-The data was sourced from Kaggle from an Engineering Placement dataset ([collegePlace.csv](https://github.com/connorfarrell7/Predicting_Placements_for_Engineering_Students/blob/main/collegePlace.csv)) which features the following relevant factors below.
+The data was sourced from Kaggle from an ([Engineering Placement dataset](https://github.com/connorfarrell7/Predicting_Placements_for_Engineering_Students/blob/main/Dataset/collegePlace.csv)) which features the following relevant factors below.
 
 #### Relevant factors include:
 
@@ -37,7 +37,7 @@ The data was sourced from Kaggle from an Engineering Placement dataset ([college
 
 **Machine Learning Model Type:** Classification model
 
-Utilizing the above features from the dataset, we are going to train a classification model - a subcategory of Supervised Machine Learning – to determine the likelihood of acceptance for future applicants. The following are the steps taken when building the machine learning model ([predicting_placements_for_engineering_students.ipynb]( https://github.com/connorfarrell7/Predicting_Placements_for_Engineering_Students/blob/main/predicting_placements_for_engineering_students.ipynb)).
+Utilizing the above features from the dataset, we are going to train a classification model - a subcategory of Supervised Machine Learning – to determine the likelihood of acceptance for future applicants. The following are the steps taken when building the ([machine learning model]( https://github.com/connorfarrell7/Predicting_Placements_for_Engineering_Students/blob/main/Database%20and%20Machine%20Learning/predicting_placements_for_engineering_students.ipynb)).
 
 **Step 1:** Loading Dataset
 
@@ -94,7 +94,7 @@ Utilizing the above features from the dataset, we are going to train a classific
 
 ### Database Integration
 
-We will use PostgresSQL to host data from tables containing [students' demographic information]( https://github.com/connorfarrell7/Predicting_Placements_for_Engineering_Students/blob/main/Deliverable%202%20-%20Database%20Files/student_information.csv) (ID, Age, Gender, Stream) and the parameters used to predict the probability of obtaining an [engineering placement](https://github.com/connorfarrell7/Predicting_Placements_for_Engineering_Students/blob/main/Deliverable%202%20-%20Database%20Files/student_predictors.csv) (ID, CGPA, Past Internships, Hostel Stay, History of Backlogs). Using the [ERD](https://github.com/connorfarrell7/Predicting_Placements_for_Engineering_Students/blob/main/Deliverable%202%20-%20Database%20Files/College_Placement_ERD.png) and [SQL Code](https://github.com/connorfarrell7/Predicting_Placements_for_Engineering_Students/blob/main/collegePlace.sql), we will join these tables and export the data as a [csv file](https://github.com/connorfarrell7/Predicting_Placements_for_Engineering_Students/blob/main/collegePlace.csv). 
+We will use PostgresSQL to host data from tables containing [students' demographic information](https://github.com/connorfarrell7/Predicting_Placements_for_Engineering_Students/blob/main/Dataset/student_information.csv) (ID, Age, Gender, Stream) and the parameters used to predict the probability of obtaining an [engineering placement](https://github.com/connorfarrell7/Predicting_Placements_for_Engineering_Students/blob/main/Dataset/student_predictors.csv) (ID, CGPA, Past Internships, Hostel Stay, History of Backlogs). Using the [ERD](https://github.com/connorfarrell7/Predicting_Placements_for_Engineering_Students/blob/main/Dataset/College_Placement_ERD.png) and [SQL Code](https://github.com/connorfarrell7/Predicting_Placements_for_Engineering_Students/blob/main/Database%20and%20Machine%20Learning/collegePlace.sql), we will join these tables and export the data as a [csv file](https://github.com/connorfarrell7/Predicting_Placements_for_Engineering_Students/blob/main/Dataset/collegePlace.csv). 
 
 The database was setup on AWS RDS service. The server’s name is capstone-project, and the connection details are shared with the rest of the team members. The table was populated with the data, and it is ready to be loaded into the machine learning model to predict the student placement outcome.  
 

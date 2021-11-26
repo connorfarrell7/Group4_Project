@@ -20,7 +20,7 @@ When students are in the beginning of their career it is a challenging time for 
 
 ### Data Source
 
-The data was sourced from Kaggle from an ([Engineering Placement dataset](https://github.com/connorfarrell7/Predicting_Placements_for_Engineering_Students/blob/main/Dataset/collegePlace.csv)) which features the following relevant factors below.
+The data was sourced from Kaggle from an [Engineering Placement dataset](https://github.com/connorfarrell7/Predicting_Placements_for_Engineering_Students/blob/main/Dataset/collegePlace.csv) which features the following relevant factors below.
 
 #### Relevant factors include:
 

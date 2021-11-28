@@ -100,6 +100,8 @@ The database was setup on AWS RDS service. The server’s name is capstone-proje
 
 ### Description of Interactive Elements
 
+(https://public.tableau.com/app/profile/connor.farrell6390/viz/PredictingPlacementsforEngineeringStudents/Dashboard1)
+
 #### 1st Interactive Element:
 
 Our first interactive element is a scatter plot that shows the amount of internship placements based on the applicant’s Cumulative Grade Point Average.

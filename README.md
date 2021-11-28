@@ -100,7 +100,7 @@ The database was setup on AWS RDS service. The server’s name is capstone-proje
 
 ### Description of Interactive Elements
 
-(https://public.tableau.com/app/profile/connor.farrell6390/viz/PredictingPlacementsforEngineeringStudents/Dashboard1)
+https://public.tableau.com/app/profile/connor.farrell6390/viz/PredictingPlacementsforEngineeringStudents/Dashboard1
 
 #### 1st Interactive Element:
 

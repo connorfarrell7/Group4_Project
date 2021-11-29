@@ -100,7 +100,9 @@ The database was setup on AWS RDS service. The server’s name is capstone-proje
 
 ### Description of Interactive Elements
 
-https://public.tableau.com/app/profile/connor.farrell6390/viz/PredictingPlacementsforEngineeringStudents/Dashboard1
+[Dashboard](https://public.tableau.com/app/profile/connor.farrell6390/viz/PredictingPlacementsforEngineeringStudents/Dashboard1)
+
+We have chosen to use Tableau to create the final dashboard. This is because Tableau is a powerful interactive visualization tool that helps simplify the dataset into understandable format when presenting. The below visualizations were created to show which criterias were mostly required for the student to be placed for an internship or not.
 
 #### 1st Interactive Element:
 
